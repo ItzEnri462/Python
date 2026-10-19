@@ -19,7 +19,7 @@ def filtra(origine, destinazione, marca, anno_minimo):
 quante = filtra("dati/car_sales_data.csv", "porsche.csv", "Porsche", 2015)
 print("auto salvate:", quante)
 
-with open("porsche.csv", "r", encoding="utf-8") as f:
+with open("dati/porsche.csv", "r", encoding="utf-8") as f:
     for i, riga in enumerate(f):
         if i == 4:
             break
