@@ -16,4 +16,4 @@ def prezzo_medio(nome_file, alimentazione):
         return somma / quantita
 
 for tipo in ["Petrol", "Diesel", "Hybrid", "Elettrica"]:
-    print(type, ": ", prezzo_medio("dati/car_sales_data.csv", tipo))
+    print(tipo, ": ", prezzo_medio("dati/car_sales_data.csv", tipo))
